@@ -18,6 +18,12 @@
             android:name=".ItemListActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,9 +39,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example5.lilian.caoscwy.ItemListActivity" />
         </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+
     </application>
 
 </manifest>
